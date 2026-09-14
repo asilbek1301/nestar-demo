@@ -1,6 +1,9 @@
 /** IMPORTS **/
-@import "../variables.scss";
-@import "./homepage/homepage.scss";
+@import '/scss/variables.scss';
+
+@import '/scss/pc/homepage/homepage.scss';
+@import '/scss/pc/property/property.scss';
+@import '/scss/pc/property/detail.scss';
 
 #pc-wrap {
   #top {
@@ -220,7 +223,7 @@
           visibility: hidden;
           border-radius: 12px;
           background: #ffffff;
-          box-shadow: rgba(0, 0, 0, 0.35) 0px 5ppx 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
           box-sizing: border-box;
           z-index: 2;
 
@@ -275,7 +278,7 @@
           visibility: hidden;
           border-radius: 12px;
           background: #fff;
-          box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
           box-sizing: border-box;
           z-index: 1;
 
@@ -312,7 +315,7 @@
 
         .filter-rooms {
           position: absolute;
-          padding: 10px 10px;
+          padding: 10px 92px;
           width: 1094px;
           min-height: 120px;
           height: auto;
@@ -339,7 +342,7 @@
             display: flex;
             align-items: center;
             padding: 10px 30px;
-            border: 1px solidf #fffdfd;
+            border: 1px solid #fffdfd;
             color: #181a20;
             font-family: $font;
             font-size: 20px;
